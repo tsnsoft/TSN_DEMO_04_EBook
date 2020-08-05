@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="lec00">    Содержание</string>
+    <string name="lec01">01. Серфинг</string>
+    <string name="lec11">11. ОС</string>
+    <string name="lec15">15. Системы ИБ</string>
+    <string name="prog">     Программы</string>
+
+</resources>
