@@ -28,10 +28,6 @@ import android.widget.RelativeLayout;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import com.google.android.gms.ads.AdRequest;
-import com.google.android.gms.ads.AdView;
-import com.google.android.gms.ads.MobileAds;
-
 import java.lang.reflect.Method;
 
 public class MainActivity extends AppCompatActivity
@@ -101,12 +97,6 @@ public class MainActivity extends AppCompatActivity
 
         // Определение API версии Android
         currentApiOS = android.os.Build.VERSION.SDK_INT;
-
-        // Инициализация рекламы в приложении
-        MobileAds.initialize(getApplicationContext(), getString(R.string.app_ad_id));
-        AdView adView = findViewById(R.id.adView);
-        AdRequest adRequest = new AdRequest.Builder().build();
-        adView.loadAd(adRequest);
 
         Toolbar toolbar = findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);

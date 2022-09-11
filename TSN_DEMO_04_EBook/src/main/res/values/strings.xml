@@ -4,13 +4,7 @@
     <string name="navigation_drawer_open">Open navigation drawer</string>
     <string name="navigation_drawer_close">Close navigation drawer</string>
 
-    <string name="name_program">Пример eBook, 2020</string>
-
-    <!--Вставьте в код ниже рекламный код вашего приложения -->
-    <string name="app_ad_id">ca-app-pub-YOUR_CODE</string>
-
-    <!--Замените демо-код ниже на настоящий код вашего баннера -->
-    <string name="banner_ad_unit_id">ca-app-pub-3940256099942544/6300978111</string>
+    <string name="name_program">Пример eBook, 2022</string>
 
     <string name="resource_directory">file:///android_asset/HTML/</string>
 
