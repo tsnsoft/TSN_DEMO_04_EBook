@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
+<!-- Пункты бокового меню для перехода к разделам и внешним материалам. -->
 <menu xmlns:app="http://schemas.android.com/apk/res-auto"
       xmlns:android="http://schemas.android.com/apk/res/android">
 
+    <!-- Основные разделы приложения; одновременно выбран только один раздел. -->
     <group android:checkableBehavior="single">
         <item
             android:id="@+id/lec00"
@@ -21,6 +23,7 @@
             android:title="@string/lec15" />
     </group>
 
+    <!-- Дополнительные учебные материалы. -->
     <item android:title="@string/bonus">
         <menu>
             <group android:checkableBehavior="single">
@@ -36,6 +39,7 @@
         </menu>
     </item>
 
+    <!-- Разделы с законодательными материалами. -->
     <item android:title="@string/laws">
         <menu>
             <group android:checkableBehavior="single">
@@ -51,6 +55,7 @@
         </menu>
     </item>
 
+    <!-- Ссылки на дополнительные внешние ресурсы. -->
     <item android:title="@string/additional">
         <menu>
             <item
@@ -68,6 +73,7 @@
         </menu>
     </item>
 
+    <!-- Действия для связи с автором приложения. -->
     <item android:title="@string/communicate">
         <menu>
             <item

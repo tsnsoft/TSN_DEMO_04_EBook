@@ -135,7 +135,7 @@ public class MainActivity extends AppCompatActivity
         // ---------------------------------------------------------------
 
 
-        initWebView(isFullSizeFont);
+        initWebView(isFullSizeFont); // Инициализация компонента просмотра html-страниц
 
         // Определение пути к html-файлам
         resourceDir = getString(R.string.resource_directory);
@@ -218,7 +218,7 @@ public class MainActivity extends AppCompatActivity
             }
         });
 
-        searchCloseButton.performClick();
+        searchCloseButton.performClick(); // Вызов обработчика кнопки закрытия поиска
 
     }
 
@@ -243,6 +243,7 @@ public class MainActivity extends AppCompatActivity
         ed.apply();
     }
 
+    @SuppressLint("GestureBackNavigation")
     @Override
     public void onBackPressed() {
         DrawerLayout drawer = findViewById(R.id.drawer_layout);
@@ -318,6 +319,7 @@ public class MainActivity extends AppCompatActivity
         return super.onOptionsItemSelected(item);
     }
 
+    // Метод обработки нажатий меню в боковом меню
     @SuppressWarnings("StatementWithEmptyBody")
     @Override
     public boolean onNavigationItemSelected(MenuItem item) {
@@ -422,7 +424,6 @@ public class MainActivity extends AppCompatActivity
         } catch (Exception ignored) {
         }
     }
-
 
 }
 

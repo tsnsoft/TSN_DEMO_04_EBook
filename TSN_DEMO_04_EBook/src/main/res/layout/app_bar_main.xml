@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
+<!-- Контейнер верхней панели приложения и основного содержимого. -->
 <androidx.coordinatorlayout.widget.CoordinatorLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
@@ -7,11 +8,13 @@
     android:layout_height="match_parent"
     tools:context="kz.talipovsn.ebook.MainActivity">
 
+    <!-- Область верхней панели, которая содержит панель действий. -->
     <com.google.android.material.appbar.AppBarLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:theme="@style/AppTheme.AppBarOverlay">
 
+        <!-- Панель действий с заголовком и пунктами меню. -->
         <androidx.appcompat.widget.Toolbar
             android:id="@+id/toolbar"
             android:layout_width="match_parent"
@@ -21,6 +24,7 @@
 
     </com.google.android.material.appbar.AppBarLayout>
 
+    <!-- Подключает основное содержимое: WebView и элементы поиска. -->
     <include layout="@layout/content_main"/>
 
 </androidx.coordinatorlayout.widget.CoordinatorLayout>
